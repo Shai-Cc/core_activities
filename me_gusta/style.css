@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    width: 800px;
+    font-size: 15px;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.part1{
+    width: 50%;
+    border: 3px solid ;
+}
+.some_user{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+#subtitle{
+    text-align: center;
+}
+#avatar{
+    margin-bottom: 15px;
+}
+.row2{
+    display: flex;
+}
+.col{
+    border: 2px solid black;
+    text-align: center;
+    flex: 1;
+}
+.col2{
+    flex: 2;
+    margin-left: 20px;
+}
+.part1,.user1, .user2, .user3{
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+a{
+    color: #0d5796;
+}
+img{
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button{
+    background-color: #ffd966;
+    padding: 5px 10px;
+    box-shadow: 3px 3px black;
+}
+#primerlike,#like2_1, #like2_2, #like2_3{
+    padding-right: 20px;
+    
+}

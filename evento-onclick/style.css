@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    width: 900px;
+    font-family: 'roboto', sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 50px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    list-style: none;
+}
+#search{
+width: 300px;
+height: 25px;
+}
+.btn{
+    padding: 5px 20px;
+    background-color: #2b78e4;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+}
+.container{
+    padding-top: 10px;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex: 2;
+    margin-right: 20px;
+}
+.col-2{
+    flex: 1;
+    margin-left: 20px;
+}
+.box{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    height: 185px;
+    display: flex;
+    margin-top: 20px;
+}
+.box-2{
+    border: 2px solid black;
+    padding: 20px;
+    width: 250px;
+    margin-top: 20px;
+}
+p{
+    font-weight: bold;
+    text-align: justify;
+    padding: 40px;
+    margin-top: 25px;
+    width: 210px;
+    line-height: 25px;
+}
+.ninja{
+    text-align: center;
+    margin: 0; /*modificar*/
+    padding: 10px;
+    
+}
+
+.likes{
+    background-color: #ffd966;
+    padding: 5px 15px;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 15px;
+    font-weight: bold;
+}
+a{
+    color: #5b8bb6;
+    
+}
+.ninja-font{
+    font-size: 45px;
+}
+.add{
+    background-color: #93c47d;
+    padding: 5px 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}
+.plural{
+    line-height: 40px;
+}

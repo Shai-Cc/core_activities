@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f3f3f3;
+}
+.nav {
+    width: 1000px;
+    background-color: hsl(0deg 0% 20%);
+    color: white;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.top {
+    background-color: hsl(0deg 0% 20%);
+}
+.nav-title {
+    margin-left: 30px;
+
+}
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.btn {
+    background-color: hsl(188.2deg 77.78% 40.59%);
+    width: 100px;
+    height: 40px;
+    color: white;
+    border: 4px solid black;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col,
+.col-2 {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.col-2 {
+    flex: 2;
+}
+.tarjeta-usuario,
+.user-card {
+    border: 2px solid lightgrey;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+
+}
+
+.header {
+    background-color: rgb(151, 209, 209);
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.text {
+    padding: 20px;
+}
+
+.text h2,
+.text h3,
+.text p {
+    margin: 10px 0px;
+}
+#profile {
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 130px;
+}
+
+.miniatura {
+    padding: 15px;
+    width: 50px;
+}
+
+.yes-no {
+    padding: 15px;
+    width: 30px;
+}
+
+.card-header {
+    background-color: hsl(0deg 0% 20%);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.user,
+.accept-deny {
+    display: flex;
+    align-items: center;
+}
+.footer {
+    padding: 10px;
+    margin: auto;
+    border-top: 2px solid darkgray;
+}
+.location,
+.icon {
+    height: 15px;
+}
+.number-of {
+    background-color: lightgray;
+    color: black;
+    border: 2px solid darkgray;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+#quinientos {
+    background-color: lightgray;
+    color: black;
+    border: 2px solid darkgray;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 5px;
+}

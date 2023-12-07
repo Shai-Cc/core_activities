@@ -1,0 +1,64 @@
+
+#head{
+    text-align: center;
+}
+h1{
+    width: 1000px;
+    color: rgb(32, 61, 58);
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid orange;
+    margin: auto;
+}
+.vader_cont{
+    text-align: center;
+    width: 100%;
+    background-color: aqua;
+    border: 5px solid violet;
+    padding: 40px 80px;
+}
+img{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: 3px solid purple;
+    margin: auto;
+}
+#alien{
+    background-color: black;
+}
+.row1{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    border: 5px solid yellow;
+    padding: 20px 20px;
+}
+.row2{
+    background-color: rgb(209, 200, 231);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 3px solid red;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+.row3{
+    background-color:cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px;
+    margin: auto;
+    margin-top: 20px;
+    border: 5px solid greenyellow;
+}
+h3{
+    text-align: center;
+    color: gray;
+}
